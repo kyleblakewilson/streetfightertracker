@@ -1,0 +1,13 @@
+{
+  "name": "streetfightertracker",
+  "description": "Street Fighter Tracker for Stats.",
+  "Author": "Kyle B. Wilson",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "imagemagick": "*"	
+  }
+}
