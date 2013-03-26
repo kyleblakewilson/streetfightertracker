@@ -8,5 +8,7 @@
     "start": "node app"
   },
   "dependencies": {
+	"async": "*",
+	"colors": "*"
   }
 }
