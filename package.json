@@ -8,6 +8,5 @@
     "start": "node app"
   },
   "dependencies": {
-    "imagemagick": "*"	
   }
 }
