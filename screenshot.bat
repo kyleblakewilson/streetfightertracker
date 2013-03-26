@@ -1,7 +1,6 @@
 @echo off
 convert screenshot.jpg -crop 250x24+121+138 +repage PlayerOne-Name.png
 convert screenshot.jpg -crop 250x24+944+138 +repage PlayerTwo-Name.png
-convert screenshot.jpg -crop 250x24+944+138 +repage wins.png
 convert PlayerOne-Name.png -set colorspace Gray -separate -average PlayerOne-Name.png
 convert PlayerOne-Name.png -fuzz 2100 -fill black +opaque white PlayerOne-Name.png
 convert PlayerTwo-Name.png -set colorspace Gray -separate -average PlayerTwo-Name.png
