@@ -1,0 +1,11 @@
+{ "name": "streetfighter-tracker",
+  "description": "Street Fighter Scraper",
+  "version": "0.0.2",
+  "main": "app.js",
+  "author": "Kyle Wilson <kyleblakewilson@gmail.com>",
+  "dependencies": {
+    "async": "*",
+    "mysql": "*",
+    "validator": "*"
+  }
+}
